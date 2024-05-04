@@ -12,7 +12,11 @@ The simplest way to contribute is by testing out your own math/algorithms. The o
 To add your own functions to test, simply define your function in lib.rs and build with `cargo build --release`.
 
 ### Running Rust Function from CPP
-To tell CPP that your Rust functin exists, define it like so `extern "C" float landon_clip(float input, float drive);` making sure that the name and args are the same from lib.rs.
+To tell CPP that your Rust functin exists, define it like so:
+```cpp
+extern "C" float landon_clip(float input, float drive);
+```
+making sure that the name and args are the same from lib.rs.
 
 ## Support
 
