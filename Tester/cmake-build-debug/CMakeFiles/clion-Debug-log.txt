@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/land00m/CLionProjects/Tester -B /Users/land00m/CLionProjects/Tester/cmake-build-debug
+/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester -B /Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester/cmake-build-debug
 -- The C compiler identification is AppleClang 15.0.0.15000100
 -- The CXX compiler identification is AppleClang 15.0.0.15000100
 -- Detecting C compiler ABI info
@@ -11,6 +11,6 @@
 -- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (1.7s)
+-- Configuring done (0.6s)
 -- Generating done (0.0s)
--- Build files have been written to: /Users/land00m/CLionProjects/Tester/cmake-build-debug
+-- Build files have been written to: /Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester/cmake-build-debug

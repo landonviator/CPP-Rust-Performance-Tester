@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "Debug"
+			"value" : "Release"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/land00m/CLionProjects/Tester/cmake-build-debug"
+			"value" : "/Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester/cmake-build-release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/land00m/CLionProjects/Tester/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester/cmake-build-release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/land00m/CLionProjects/Tester"
+			"value" : "/Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -1127,7 +1127,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/Users/land00m/CLionProjects/Tester/rust/target/release/librust.dylib"
+			"value" : "/Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester/rust/target/release/librust.dylib"
 		},
 		{
 			"name" : "Tester_BINARY_DIR",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/land00m/CLionProjects/Tester/cmake-build-debug"
+			"value" : "/Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester/cmake-build-release"
 		},
 		{
 			"name" : "Tester_IS_TOP_LEVEL",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/land00m/CLionProjects/Tester"
+			"value" : "/Volumes/Land00m/GitHub/CPP-Rust-Performance-Tester/Tester"
 		}
 	],
 	"kind" : "cache",
