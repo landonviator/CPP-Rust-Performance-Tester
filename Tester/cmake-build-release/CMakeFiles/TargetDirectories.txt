@@ -1,0 +1,3 @@
+/Users/land00m/CLionProjects/Tester/cmake-build-release/CMakeFiles/Tester.dir
+/Users/land00m/CLionProjects/Tester/cmake-build-release/CMakeFiles/edit_cache.dir
+/Users/land00m/CLionProjects/Tester/cmake-build-release/CMakeFiles/rebuild_cache.dir

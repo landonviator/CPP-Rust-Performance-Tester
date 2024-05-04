@@ -1,0 +1,3 @@
+Times CPP was faster: 6
+Times Rust was faster: 4
+
