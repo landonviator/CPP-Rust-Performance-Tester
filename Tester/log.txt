@@ -10,3 +10,6 @@ Times Rust was faster: 10
 Times CPP was faster: 0
 Times Rust was faster: 10
 
+Times CPP was faster: 0
+Times Rust was faster: 10
+
