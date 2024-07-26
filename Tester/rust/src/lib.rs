@@ -3,7 +3,7 @@ use core::f32;
 const PI_OVER_4: f32 = f32::consts::PI / 4.0;
 
 #[inline(always)]
-fn fast_atan(x: f32) -> f32 {
+pub fn fast_atan(x: f32) -> f32 {
     return (PI_OVER_4 * x) - (x * (x.abs() - 1.0) * (0.2447 + 0.663*x.abs())); 
 }
 
@@ -12,7 +12,7 @@ const B: f32 = -0.287434475393028;
 const C: f32 = PI_OVER_4 - A - B;
 
 #[inline(always)]
-fn fast_atan_alt(x: f32) -> f32 {
+pub fn fast_atan_alt(x: f32) -> f32 {
     let squared = x*x;
     //return x - (squared*x/3f32) + squared*squared*x/5f32 - (squared*squared*squared*x/7f32)
     return ((A*squared + B) * squared + C) * x;

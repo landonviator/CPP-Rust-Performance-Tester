@@ -10,3 +10,11 @@ crate-type = ["staticlib"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[dev-dependencies]
+criterion = { version = "0.5", features = ["html_reports"] }
+rand_chacha = "0.3"
+
+[[bench]]
+name = "clipping"
+harness = false
