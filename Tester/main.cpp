@@ -3,15 +3,20 @@
 #include <chrono>
 #include <fstream>
 
-std::string file_name = "/Users/land00m/CLionProjects/Tester/log.txt";
+std::string file_name = "log.txt";
 
-float clip(float input, float drive)
+inline float clip(float input, float drive)
 {
     float input_drive = input * drive;
     return 2.0f / 3.14f * std::atan(input_drive);
 }
 
 extern "C" float landon_clip(float input, float drive);
+
+// some other functions that are not as accurate as std::atan but might be
+// faster
+extern "C" float fast_atan_less_accurate(float input, float drive);
+extern "C" float fast_atan_more_accurate(float input, float drive);
 
 // Function to log a message to a file
 void logToFile(const std::string& message, const std::string& filename) {
